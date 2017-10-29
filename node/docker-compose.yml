@@ -1,0 +1,16 @@
+version: "3.1"
+services:
+  node:
+    image: node:alpine
+    container_name: nodejs
+    # image: node
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./food-lookup-demo-master:/home/node/app
+    # expose:
+    #   - "3000"
+    ports:
+      - "3000:3000"
+    command: "npm start"

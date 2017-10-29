@@ -1,0 +1,12 @@
+.DS_Store
+*/.DS_Store
+mariadb-phpmyadmin/maria_db
+mariadb-phpmyadmin/phpmyadmin
+ftp/pure-ftpd
+nginx-php7/nginx/logs
+nginx-php7/php/code/index.php
+nginx-static/others
+nginx-static/ssl
+nginx-static/static
+node/food-lookup-demo-master
+pm2/myapp

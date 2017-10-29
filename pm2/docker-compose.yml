@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+    app:
+        image: keymetrics/pm2
+        container_name: myapp
+        volumes: 
+            - ./myapp:/app
+        ports:
+            - "3000:3000"
+# then add a process.yml
+# http://pm2.keymetrics.io/docs/usage/docker-pm2-nodejs/
